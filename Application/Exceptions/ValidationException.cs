@@ -11,7 +11,6 @@ namespace Application.Exceptions
     {
         public ValidationException() : base("Se han producido uno o más errores de validación ")
         {
-            //Errors = new List<string>();
         }
 
         public List<string> Errors { get; } = new List<string>();
